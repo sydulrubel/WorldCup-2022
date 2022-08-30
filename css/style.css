@@ -1,0 +1,123 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin-left: 20px;
+}
+
+/* 
+header part 
+*/
+.head-part{
+    width: 1321px;
+    height: 646px;
+    display: flex;
+    background-color: rgb(4, 16, 39);
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.head-text{
+    margin-top: 111px;
+    margin-bottom: 111px;
+    margin-bottom: 111px;
+    margin-left: 106px;
+    width: 531px;
+    height: 424px;
+    color: rgb(234, 237, 243);
+}
+.headline{
+    font-size: 70px;
+    line-height: 80px;
+}
+.headline{
+    margin: 0;
+}
+.head-text p{
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 26px;
+
+}
+.head-text a{
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    width: 187px;
+    background-color: rgba(224, 52, 52, 0.753);
+    border-radius: 5px;
+    padding: 16px 25px 16px 25px;
+
+}
+.head-part img{
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+    margin-left: 24px;
+}
+/* -------
+main part  
+---------*/
+main{
+    display: grid;
+    grid-template-columns: 330px auto;
+}
+/* 
+aside part  
+*/
+aside{
+    width: 312px;
+    height: 312px;
+    float: left;
+    background-color: rgb(4, 16, 39);
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.aside-part p{
+    margin:30px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+.aside-link{
+    text-decoration: none;
+    color: rgb(28, 24, 24);
+} 
+#red-button{
+    background-color: rgba(224, 52, 52, 0.753);
+}
+#red-button >a{
+    color: aliceblue;
+}
+/* 
+article part 
+ */
+ article{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+ }
+.blog{
+    width: 312px;
+    height: 362px;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 1px gray;
+}
+.article-info{
+    padding-left: 15px;
+
+}
+.article-details{
+    display: flex;
+    align-items: center;
+}
+.article-details img{
+    width: 24px;
+    height: 20px;
+}
+.time{
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+}
+
