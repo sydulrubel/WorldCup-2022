@@ -41,7 +41,7 @@ header part
     line-height: 26px;
 
 }
-.head-text a{
+.btn{
     text-decoration: none;
     color: white;
     height: 50px;
@@ -106,13 +106,20 @@ article part
     border-radius: 10px;
     box-shadow: 0 1px 1px 1px gray;
 }
+.match{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+}
 .article-info{
+    margin-top: 30px;
     padding-left: 15px;
 
 }
 .article-details{
     display: flex;
     align-items: center;
+    padding-left: 30px;
 }
 .article-details img{
     width: 24px;
@@ -122,6 +129,13 @@ article part
     margin-left: 10px;
     margin-right: 20px;
     padding-bottom: 5px;
+}
+
+.tab-btn{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    display: none;
 }
 /*----------------
  footer part style 
@@ -156,7 +170,6 @@ article part
  }
  .icon{
     margin-right: 40px;
-    color: aliceblue;
  }
 
  /* ---------------
@@ -259,6 +272,9 @@ article part
     article{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+    }
+    .tab-btn{
+        display: block;
     }
     footer{
         width: 100%;
